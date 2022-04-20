@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR GAME</title>
+
+    <link rel="stylesheet" href="cgCSS.css" type="text/css">
+
+</head>
+<body>
+    <h1 >THE GREAT RGB COLOR GUESSING GAME</h1>
+    <h2>GUESS THE COLOR : <br><span id="colorDisplay">RGB</span></h2>
+    <div id="stripe">
+        <button id="reset">NEW COLORS</button>
+        <span id="message"></span>
+        <button class="mode">EASY</button>
+        <button class="mode selected">HARD</button>
+    </div>
+    
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    
+    <script type="text/javascript" src="cgJS.js"></script>
+</body>
+</html>
